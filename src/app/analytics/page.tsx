@@ -30,7 +30,7 @@ export default async function AnalyticsPage() {
     ).length;
 
   return (
-  <section className="p-8">
+       <section className="flex-1 p-4 md:p-8 pb-24">
 
           <h1 className="text-4xl font-bold mb-8">
             Analytics Dashboard

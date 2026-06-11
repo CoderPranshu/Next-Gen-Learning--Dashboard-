@@ -30,7 +30,7 @@ export default async function Home() {
 
     
     return (
-  <section className="p-8">
+  <section className="flex-1 p-4 md:p-8 pb-24">
     <StaggerContainer>
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
         <HeroCard

@@ -18,7 +18,7 @@ export default async function CoursesPage() {
       <main className="min-h-screen bg-black text-white flex">
         
 
-        <section className="flex-1 p-8">
+        <section className="p-4 md:p-8 pb-24">
 
           <h1 className="text-4xl font-bold mb-8">
             My Courses

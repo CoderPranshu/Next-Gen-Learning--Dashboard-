@@ -1,6 +1,6 @@
 export default function SettingsPage() {
   return (
-    <section className="p-8 text-white">
+    <section className="p-4 md:p-8 pb-24">
       <h1 className="text-4xl font-bold mb-8">
         Settings
       </h1>
