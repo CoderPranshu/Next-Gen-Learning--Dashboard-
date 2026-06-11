@@ -188,4 +188,4 @@ During the development of this project, I gained practical experience in:
 
 **ME**
 
-Aspiring Software Engineer focused on building scalable web applications and continuously improving problem-solving, frontend development, and full-stack engineering skills.
+Aspiring Software Engineer focused on building scalable web applications and continuously improving problem-solving, frontend development, and full-stack engineering skill.
