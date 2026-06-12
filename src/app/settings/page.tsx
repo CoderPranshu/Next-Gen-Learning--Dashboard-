@@ -21,7 +21,7 @@ export default function SettingsPage() {
               </p>
 
               <p className="font-medium">
-                Pranshu
+                User
               </p>
             </div>
 
@@ -31,7 +31,7 @@ export default function SettingsPage() {
               </p>
 
               <p className="font-medium">
-                pranshu@example.com
+                user@example.com
               </p>
             </div>
 

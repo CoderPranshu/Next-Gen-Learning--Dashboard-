@@ -46,18 +46,21 @@ export default function ActivityCard() {
             Learning Activity
           </h2>
 
-          <p className="text-zinc-400 text-sm mb-6">
-            Last 7 Days
-            <div className="mb-6 flex gap-3">
-            <div className="rounded-full border border-cyan-500/20 bg-cyan-500/10 px-3 py-1 text-xs text-cyan-400">
-                27 Hours
-            </div>
+          <div className="mb-6">
+            <p className="text-zinc-400 text-sm">
+                Last 7 Days
+            </p>
 
-             <div className="rounded-full border border-green-500/20 bg-green-500/10 px-3 py-1 text-xs text-green-400">
-               +12% This Week
+          <div className="mt-3 flex gap-3">
+              <div className="rounded-full border border-cyan-500/20 bg-cyan-500/10 px-3 py-1 text-xs text-cyan-400">
+                 27 Hours
               </div>
-            </div>
-          </p>
+
+          <div className="rounded-full border border-green-500/20 bg-green-500/10 px-3 py-1 text-xs text-green-400">
+               +12% This Week
+          </div>
+        </div>
+        </div>
 
           <ActivityChart />
         </div>

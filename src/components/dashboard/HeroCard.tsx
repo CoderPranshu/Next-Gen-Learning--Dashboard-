@@ -20,7 +20,7 @@ export default function HeroCard({
         <h1 className="text-5xl font-bold">
           Welcome Back,
           <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-            {" "}Rajni
+            {" "}Pranshu
           </span>
         </h1>
 
