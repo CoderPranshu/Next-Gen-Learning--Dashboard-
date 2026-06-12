@@ -3,6 +3,7 @@ import type { Course } from "@/types/course";
 import MotionCard from "../ui/MotionCard";
 import {Atom,Rocket,Code,Database} from "lucide-react";
 import {motion} from "framer-motion"
+import Link from "next/link";
 
 interface Props {
   course: Course;
@@ -67,9 +68,13 @@ export default function CourseCard({
               </span>
         </div>
 
-        <button className="mt-4 w-full rounded-xl border border-cyan-500/20 bg-cyan-500/10 py-2 text-cyan-400 transition hover:shadow-[0_0_20px_rgba(34,211,238,0.15)]">
-              Continue Learning →
-        </button>
+        <Link
+            href={`/courses/${course.id}`}
+            className="mt-4 block w-full rounded-xl border border-cyan-500/20 bg-cyan-500/10 py-2 text-center text-cyan-400 transition hover:bg-cyan-500/20"
+        >
+          Continue Learning →
+        </Link>
+
       </div>
         </article>
         </MotionCard>
